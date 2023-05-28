@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+        <link href="index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="card">
+            <div class="card-header">
+                <center><h3>Login Form</h3></center>
+            <form onsubmit="login()" id="loginForm" class="card-body px-5 py-4">
+                <center><small><span id="error" style="color: red"></span></small></center>
+                <label class="custom-field">
+                    <input id="email" type="text" class="input" required />
+                    <span class="placeholder">Email Id</span>
+                </label><br />
+                <label class="custom-field">
+                    <input id="password" type="password" class="input" required />
+                    <span class="placeholder">Password</span>
+                </label></center><br /><br/>
+                <a href="#" onclick="forgotPass()">Forgot Password ?</a>
+                <center><button type="submit" class="btn btn-primary">Login</button></center>
+                <center><br><button><a href="signup.html" onclick="signUp()" class="btn btn-secondary">Sign Up</a></button></br></center>
+            </form>
+            </div>
+        </div>
+       <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<!-- <script src="https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js"></script>
+
+ Add Firebase products that you want to use -->
+<!-- <script src="https://www.gstatic.com/firebasejs/9.6.5/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.5/firebase-firestore.js"></script> -->
+<!-- <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js'
+
+    // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+    import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js'
+
+    // Add Firebase products that you want to use
+    import { getAuth } from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js'
+    import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore.js' -->
+    <!-- // const firebaseConfig = {
+  // Your Firebase configuration object goes here
+// };
+
+// // Initialize Firebase app
+// const app = initializeApp(firebaseConfig);
+
+// // Get Firebase services that you want to use
+// const analytics = getAnalytics(app);
+// const auth = getAuth(app);
+// const firestore = getFirestore(app); -->
+  </script>
+        <script type="module" src="firebase.js"></script>
+        <script  type="module" src="welcome.js"></script>
+    </body>
+</html>

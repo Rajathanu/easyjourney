@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(logo2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.card-header{
+    width: 450px;
+    height: 420px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.card-header h3{
+    width:220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.custom-field input{
+    padding: 12px;
+    width: 300px;
+    top: 240px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 3px solid #000;
+    outline-color: #000;
+    margin: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.custom-field .placeholder{
+    color: #fff;
+    font-family: Arial;
+    position: relative;
+    top: -40px;
+    left: -350px;
+}
+
+.card-header a{
+    padding: 10px;
+    color: #fff;
+}
+
+.card-header button{
+    color: #fff;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.card-header button:hover{
+    color: #ff7200;
+}
+
+
+
+
